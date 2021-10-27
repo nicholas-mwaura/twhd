@@ -69,7 +69,7 @@ const (
 )
 
 var (
-	defaultHomeDir     = twhutil.AppDataDir("btcd", false)
+	defaultHomeDir     = twhutil.AppDataDir("whive", false)
 	defaultConfigFile  = filepath.Join(defaultHomeDir, defaultConfigFilename)
 	defaultDataDir     = filepath.Join(defaultHomeDir, defaultDataDirname)
 	knownDbTypes       = database.SupportedDrivers()
